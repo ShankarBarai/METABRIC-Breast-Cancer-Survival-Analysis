@@ -10,7 +10,7 @@ In medicine, it’s hard to tell if a treatment like chemotherapy is the main re
 I wanted to use data science to look past these genetic differences. By filtering out the noise from the 500 most important genes, I aimed to find the true link between chemotherapy and survival. Essentially, I'm trying to answer: **Does the treatment itself make the difference when we account for genetics?**
 
 ## Methodology 
-Using the METABRIC dataset ($n = 1,964$), I implemented a Double Machine Learning (DML) framework using a Partially Linear Regression (PLR) model. To address the challenge of high-dimensionality, I utilized Random Forest learners to model both the treatment assignment (Chemotherapy) and the outcome (Survival Months), incorporating 500 gene expression features and Age at Diagnosis as covariates. Data was preprocessed by removing duplicates and Standard Scaling to ensure model stability.
+Using the METABRIC dataset ($n = 1,964$), I implemented a Double Machine Learning (DML) framework using a Partially Linear Regression (PLR) model. To address the challenge of high dimensionality, I used Random Forest learners to model both the treatment assignment (Chemotherapy) and the outcome (Survival Months), incorporating 500 gene expression features and Age at Diagnosis as covariates. Data was preprocessed by removing duplicates and Standard Scaling to ensure model stability.
 
 ## The Results
 After controlling for age and the top 500 high-variance genes, here is what the model found:
