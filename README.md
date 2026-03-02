@@ -39,7 +39,7 @@ Data: You need the Metabric clinical_patient, clinical_sample, and mrna_illumina
 Libraries:
 
 ```Bash
-pip install pandas numpy scikit-learn doubleml
+pip install pandas scikit-learn doubleml
 ```
 Run: Simply open metabric_causal_inference.ipynb and run the cells.
 
