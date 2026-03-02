@@ -17,12 +17,12 @@ After controlling for age and the top 500 high-variance genes, here is what the 
 
 | Metric | Value | Meaning |
 | :--- | :--- | :--- |
-| **Coefficient (Effect)** | **-28.48** | Chemotherapy is associated with lower survival months in this dataset. |
+| **Coefficient (Effect)** | **-26.94** | Chemotherapy is associated with lower survival months in this dataset. |
 | **P-value** | **0.000...** | The result is highly significant (not due to chance). |
-| **95% Confidence Interval** | **[-37.3, -19.6]** | We are very sure the effect falls within this range. |
+| **95% Confidence Interval** | **[-35.79, -18.09]** | We are very sure the effect falls within this range. |
 
 ### **Interpreting the Result**
-Our model shows a **negative coefficient of -28.48**. In simple terms, patients who received chemotherapy in this specific dataset had a shorter survival time (about 28 months less) than those who didn't, even after adjusting for genetics.
+Our model shows a **negative coefficient of -26.94**. In simple terms, patients who received chemotherapy in this specific dataset had a shorter survival time (about 28 months less) than those who didn't, even after adjusting for genetics.
 
 **Why is it negative?** In many real-world datasets, chemotherapy is usually given to patients who are already in a more advanced or aggressive stage of cancer. Even though we controlled for 500 genes, this "negative" result likely reflects that the sickest patients were the ones receiving the most aggressive treatment.
 
