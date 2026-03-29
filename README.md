@@ -1,4 +1,4 @@
-# Breast Cancer Survival Analysis using Double Machine Learning
+# Predictive Modeling of Breast Cancer Survival Outcomes: A Multi-Model Machine Learning Approach
 This project looks at the **METABRIC** dataset to see how chemotherapy affects the survival time of breast cancer patients. It combines clinical data with genetic information to get a clearer picture of patient outcomes.
 
 ## Project Overview
